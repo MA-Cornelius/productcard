@@ -1,0 +1,115 @@
+.attribution { font-size: 11px; text-align: center; 
+    margin-top: 40px;
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+body{
+    background-color: hsl(30, 38%, 92%) ;
+    width: 100%;
+   max-width: 700px;
+}
+.previewcard_image{
+    background-image:url("image-product-desktop.jpg");
+    height:100vh;
+    /* width: 500px; */
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+ 
+    
+}
+.previewcard{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    border: 0px solid white;
+    margin: 0 auto ;
+}   
+
+/* previewcard_texts{
+    padding: 100px;  
+} */
+
+.previewcard_texts{
+    padding: 30px;
+    background-color:white;
+}
+
+
+.head1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey ;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+
+.head2_content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.productprice{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.newprice{
+    font-family: 'Fraunces', serif;
+    font-weight: 500px;
+    font-size: 40px;
+    color:#365E5E;
+    
+}
+.oldprice{
+    color: grey;
+    text-decoration: line-through;
+}
+.cartproduct{
+    align-items: center;
+    text-align: center;
+}
+button{
+    font-weight: 700px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px solid transparent;
+    background-color: #365E5E;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-bottom: 25px;
+   
+}
+button:active{
+    background-color: 
+    #133b3b;
+}
+.cartproduct img{
+    margin-right: 10px;
+    width: 25px;
+    
+    
+}
+/* font-family: 'Montserrat', sans-serif; */
+
+/* font-family: 'Fraunces', serif; */
